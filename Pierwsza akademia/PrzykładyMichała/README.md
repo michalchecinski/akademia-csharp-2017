@@ -1,4 +1,4 @@
-##Przykłady które prezentowane były przez Michała na pierwszej akademii
+## Przykłady które prezentowane były przez Michała na pierwszej akademii
 
 Są to przykłady zawierajace:
 - zmienne

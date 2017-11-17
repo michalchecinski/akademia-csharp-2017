@@ -1,4 +1,4 @@
-##Praca domowa
+## Praca domowa
 
 Podany kod jest niedokończonym prostym kalkulatorem. Program prosi użytkownika o wprowadzenie pierwszej liczby, operacji oraz drugiej liczby. Oprócz tego (dla użytkownika) nie robi nic. Twoim zadaniem jest dokończenie programu.Jak to zrobić? Juz tłumaczę:
 
