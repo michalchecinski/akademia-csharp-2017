@@ -1,0 +1,27 @@
+*/[Oo]bj/
+*/[Bb]in/
+[Oo]bj/
+[Bb]in/
+*.user
+*.suo
+*.userprefs
+*.sln.ide
+.vs/
+
+App.config
+
+#ReSharper
+*.resharper
+*\_ReSharper*
+*_ReSharper*
+
+#config file
+App.config
+
+### VisualStudioCode ###
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
