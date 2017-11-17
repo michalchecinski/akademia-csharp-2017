@@ -4,6 +4,6 @@ Są to przykłady zawierajace:
 * metody
 * pętle
     * for
-    *foreach
+    * foreach
     * while
     * do while
