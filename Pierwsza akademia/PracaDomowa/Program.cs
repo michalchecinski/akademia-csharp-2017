@@ -22,31 +22,31 @@ namespace PracaDomowa
             int b = Int32.Parse(input);
         }
 
-        int Add(int a, int b)
+        static int Add(int a, int b)
         {
             //TO-DO
             return 0;
         }
 
-        int Subtract(int a, int b)
+        static int Subtract(int a, int b)
         {
             //TO-DO
             return 0;
         }
 
-        double Divide(int a, int b)
+        static double Divide(int a, int b)
         {
             //TO-DO
             return 0;
         }
 
-        int Multiply(int a, int b)
+        static int Multiply(int a, int b)
         {
             //TO-DO
             return 0;
         }
 
-        int Compound(int a, int b)
+        static int Compound(int a, int b)
         {
             //TO-DO
             return 0;
