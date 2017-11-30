@@ -20,6 +20,7 @@ namespace PracaDomowa
             input = Console.ReadLine();
 
             int b = Int32.Parse(input);
+
         }
 
         static int Add(int a, int b)
