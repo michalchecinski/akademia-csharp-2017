@@ -1,5 +1,5 @@
-## Czwarte spotkanie Akademii C# 2017 - Operacje na obiektach
-Przykłady prezentowane na trzecim spotkaniu Akademii C# wraz z prezentacją.
+## Czwarte spotkanie Akademii C# 2017 - Pobieranie danych i kolekcje
+Przykłady prezentowane na czwartym spotkaniu Akademii C# wraz z prezentacją.
 
 ## Linki do źródeł danych:
 - https://restcountries.eu/rest/v2/all
