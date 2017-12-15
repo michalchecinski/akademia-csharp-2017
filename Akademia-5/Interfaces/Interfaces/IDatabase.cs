@@ -2,7 +2,7 @@
 {
     public interface IDatabase
     {
-        bool IsConnected { get; set; }
+        bool IsConnected { get; }
         void Connect();
         User GetUser(string firstName, string lastName);
         void SaveChanges();

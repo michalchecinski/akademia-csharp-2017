@@ -7,7 +7,11 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            NewsletterProcessor formalNewsletter = new NewsletterProcessor(new FormalEmailSender(), new UsersDatabase());
+            formalNewsletter.SendMessage();
+
+            NewsletterProcessor newsletter = new NewsletterProcessor(new EmailSender(), new UsersDatabase());
+            newsletter.SendMessage();
         }
     }
 }
