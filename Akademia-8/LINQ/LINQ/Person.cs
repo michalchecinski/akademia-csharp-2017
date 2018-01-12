@@ -15,7 +15,6 @@ namespace LINQ
             FirstName = firstName;
             LastName = lastName;
             Age = age;
-
         }
     }
 }

@@ -29,6 +29,42 @@ namespace LINQ
                 new Person("Andrzej", "Wiśniewski", 28)
             };
 
+            var jans = people.Where(x => x.FirstName == "Jan").FirstOrDefault();
+            //WriteAllElements(jans);
+
+            Person jan = people.Where(x => x.FirstName == "Jan").FirstOrDefault();
+            //Console.WriteLine($"{jan.FirstName} {jan.LastName} {jan.Age}");
+
+            Person filip = people.Where(x => x.FirstName == "Filip").FirstOrDefault();
+            if (filip == null)
+            {
+                //Console.WriteLine("Filipa nie ma w kolekcji");
+            }
+
+            var ordered = people.Where(x => x.FirstName == "Jan")
+                                .OrderByDescending(x => x.Age);
+            //WriteAllElements(ordered);
+
+            //Console.WriteLine("Suma: "+ people.Sum(x => x.Age));
+
+            //Console.WriteLine("Średnia wieku: "+people.Average(x => x.Age));
+
+            //Console.WriteLine("Ilość osób w kolekcji: "+ people.Count());
+
+            try
+            {
+                people.Single(x => x.FirstName == "Stefan");
+            }
+            catch (Exception)
+            {
+
+                Console.WriteLine("Stefana nie ma");
+            }
+
+            //Console.WriteLine(people.Where(x => x.Age == 44).Any());
+
+
+            //WriteAllElements(people.OrderBy(x => x.FirstName + x.LastName));
         }
 
 
