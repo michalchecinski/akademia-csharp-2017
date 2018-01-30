@@ -58,10 +58,14 @@ namespace LINQ
             catch (Exception)
             {
 
-                Console.WriteLine("Stefana nie ma");
+                //Console.WriteLine("Stefana nie ma");
             }
 
             //Console.WriteLine(people.Where(x => x.Age == 44).Any());
+
+            var orderedTwice = people.OrderBy(x => x.FirstName).ThenBy(x => x.LastName);
+
+            WriteAllElements(orderedTwice);
 
 
             //WriteAllElements(people.OrderBy(x => x.FirstName + x.LastName));
